@@ -1,6 +1,6 @@
 #pragma once
 #include"FigureCreatorBase.h"
-#include"FigureI.h"
+#include"../Figures/FigureI.h"
 
 class ICreator : public FigureCreatorBase
 {

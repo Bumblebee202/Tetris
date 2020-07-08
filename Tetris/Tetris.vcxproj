@@ -152,60 +152,60 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BaseApp.h" />
-    <ClInclude Include="CheckBlockBase.h" />
-    <ClInclude Include="CheckBottomBlock.h" />
-    <ClInclude Include="CheckLeftBlock.h" />
-    <ClInclude Include="CheckRightBlock.h" />
-    <ClInclude Include="FigureBase.h" />
-    <ClInclude Include="FigureCreatorBase.h" />
-    <ClInclude Include="FigureI.h" />
-    <ClInclude Include="FigureJ.h" />
-    <ClInclude Include="FigureL.h" />
-    <ClInclude Include="FigureQ.h" />
-    <ClInclude Include="FigureS.h" />
-    <ClInclude Include="FigureT.h" />
-    <ClInclude Include="FigureZ.h" />
+    <ClInclude Include="CheckBlock\CheckBlockBase.h" />
+    <ClInclude Include="CheckBlock\CheckBottomBlock.h" />
+    <ClInclude Include="CheckBlock\CheckLeftBlock.h" />
+    <ClInclude Include="CheckBlock\CheckRightBlock.h" />
+    <ClInclude Include="FactoryMethod\FigureCreatorBase.h" />
+    <ClInclude Include="FactoryMethod\ICreator.h" />
+    <ClInclude Include="FactoryMethod\JCreator.h" />
+    <ClInclude Include="FactoryMethod\LCreator.h" />
+    <ClInclude Include="FactoryMethod\QCreator.h" />
+    <ClInclude Include="FactoryMethod\SCreator.h" />
+    <ClInclude Include="FactoryMethod\TCreator.h" />
+    <ClInclude Include="FactoryMethod\ZCreator.h" />
+    <ClInclude Include="Figures\FigureBase.h" />
+    <ClInclude Include="Figures\FigureI.h" />
+    <ClInclude Include="Figures\FigureJ.h" />
+    <ClInclude Include="Figures\FigureL.h" />
+    <ClInclude Include="Figures\FigureQ.h" />
+    <ClInclude Include="Figures\FigureS.h" />
+    <ClInclude Include="Figures\FigureT.h" />
+    <ClInclude Include="Figures\FigureZ.h" />
     <ClInclude Include="Game.h" />
-    <ClInclude Include="ICreator.h" />
-    <ClInclude Include="JCreator.h" />
-    <ClInclude Include="LCreator.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="PerformanceCounter.h" />
-    <ClInclude Include="QCreator.h" />
-    <ClInclude Include="SCreator.h" />
-    <ClInclude Include="TCreator.h" />
-    <ClInclude Include="ZCreator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BaseApp.cpp" />
-    <ClCompile Include="CheckBlockBase.cpp" />
-    <ClCompile Include="CheckBottomBlock.cpp" />
-    <ClCompile Include="CheckLeftBlock.cpp" />
-    <ClCompile Include="CheckRightBlock.cpp" />
-    <ClCompile Include="FigureBase.cpp" />
-    <ClCompile Include="FigureCreatorBase.cpp" />
-    <ClCompile Include="FigureI.cpp" />
-    <ClCompile Include="FigureJ.cpp" />
-    <ClCompile Include="FigureL.cpp" />
-    <ClCompile Include="FigureQ.cpp" />
-    <ClCompile Include="FigureS.cpp" />
-    <ClCompile Include="FigureT.cpp" />
-    <ClCompile Include="FigureZ.cpp" />
+    <ClCompile Include="CheckBlock\CheckBlockBase.cpp" />
+    <ClCompile Include="CheckBlock\CheckBottomBlock.cpp" />
+    <ClCompile Include="CheckBlock\CheckLeftBlock.cpp" />
+    <ClCompile Include="CheckBlock\CheckRightBlock.cpp" />
+    <ClCompile Include="FactoryMethod\FigureCreatorBase.cpp" />
+    <ClCompile Include="FactoryMethod\ICreator.cpp" />
+    <ClCompile Include="FactoryMethod\JCreator.cpp" />
+    <ClCompile Include="FactoryMethod\LCreator.cpp" />
+    <ClCompile Include="FactoryMethod\QCreator.cpp" />
+    <ClCompile Include="FactoryMethod\SCreator.cpp" />
+    <ClCompile Include="FactoryMethod\TCreator.cpp" />
+    <ClCompile Include="FactoryMethod\ZCreator.cpp" />
+    <ClCompile Include="Figures\FigureBase.cpp" />
+    <ClCompile Include="Figures\FigureI.cpp" />
+    <ClCompile Include="Figures\FigureJ.cpp" />
+    <ClCompile Include="Figures\FigureL.cpp" />
+    <ClCompile Include="Figures\FigureQ.cpp" />
+    <ClCompile Include="Figures\FigureS.cpp" />
+    <ClCompile Include="Figures\FigureT.cpp" />
+    <ClCompile Include="Figures\FigureZ.cpp" />
     <ClCompile Include="Game.cpp" />
-    <ClCompile Include="ICreator.cpp" />
-    <ClCompile Include="JCreator.cpp" />
-    <ClCompile Include="LCreator.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="QCreator.cpp" />
-    <ClCompile Include="SCreator.cpp" />
-    <ClCompile Include="TCreator.cpp" />
     <ClCompile Include="Tetris.cpp" />
-    <ClCompile Include="ZCreator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

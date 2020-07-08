@@ -7,10 +7,20 @@
 
 int main()
 {
-	//system("chcp 1251");
-	/*SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);*/
+	CONSOLE_FONT_INFOEX cfi;
+	cfi.cbSize = sizeof cfi;
+	cfi.nFont = 0;
+	cfi.dwFontSize.X = 8;
+	cfi.dwFontSize.Y = 12;
+	cfi.FontFamily = FF_DONTCARE;
+	cfi.FontWeight = FW_NORMAL;
+
+	wcscpy_s(cfi.FaceName, L"Terminal");
+	SetCurrentConsoleFontEx(GetStdHandle(STD_OUTPUT_HANDLE), FALSE, &cfi);
+
 	std::srand(unsigned(std::time(0)));
 	Game game;
 	game.Run();
+
+	return 0;
 }

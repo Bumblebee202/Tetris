@@ -1,12 +1,12 @@
 #pragma once
 #include "FigureCreatorBase.h"
-#include "FigureT.h"
+#include"../Figures/FigureS.h"
 
-class TCreator : public FigureCreatorBase
+class SCreator : public FigureCreatorBase
 {
 public:
-	TCreator();
-	~TCreator();
+	SCreator();
+	~SCreator();
 
 	virtual FigureBase * Create(wchar_t symbol) override;
 };

@@ -8,7 +8,7 @@
 
 #ifndef PCH_H
 #define PCH_H
-#include<algorithm>
+#include <algorithm>
 #include <ctime>
 
 struct Coordinate
@@ -25,25 +25,26 @@ enum Direction
 	Left
 };
 
-#include"FigureBase.h"
-#include"FigureI.h"
-#include"FigureJ.h"
-#include"FigureL.h"
-#include"FigureQ.h"
-#include"FigureS.h"
-#include"FigureT.h"
-#include"FigureZ.h"
-#include"QCreator.h"
-#include"ICreator.h"
-#include"JCreator.h"
-#include"LCreator.h"
-#include"TCreator.h"
-#include"SCreator.h"
-#include"ZCreator.h"
-#include"CheckBlockBase.h"
-#include"CheckLeftBlock.h"
-#include"CheckRightBlock.h"
-#include"CheckBottomBlock.h"
+#include"Figures/FigureBase.h"
+#include"Figures/FigureI.h"
+#include"Figures/FigureJ.h"
+#include"Figures/FigureL.h"
+#include"Figures/FigureQ.h"
+#include"Figures/FigureS.h"
+#include"Figures/FigureT.h"
+#include"Figures/FigureZ.h"
+#include"FactoryMethod/FigureCreatorBase.h"
+#include"FactoryMethod/ICreator.h"
+#include"FactoryMethod/JCreator.h"
+#include"FactoryMethod/LCreator.h"
+#include"FactoryMethod/TCreator.h"
+#include"FactoryMethod/QCreator.h"
+#include"FactoryMethod/SCreator.h"
+#include"FactoryMethod/ZCreator.h"
+#include"CheckBlock/CheckBlockBase.h"
+#include"CheckBlock/CheckBottomBlock.h"
+#include"CheckBlock/CheckLeftBlock.h"
+#include"CheckBlock/CheckRightBlock.h"
 
 // TODO: add headers that you want to pre-compile here
 

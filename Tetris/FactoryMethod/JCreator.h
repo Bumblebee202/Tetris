@@ -1,6 +1,6 @@
 #pragma once
 #include "FigureCreatorBase.h"
-#include "FigureJ.h"
+#include "../Figures/FigureJ.h"
 
 class JCreator : public FigureCreatorBase
 {

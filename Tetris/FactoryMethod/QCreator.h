@@ -1,6 +1,6 @@
 #pragma once
 #include "FigureCreatorBase.h"
-#include"FigureQ.h"
+#include"../Figures/FigureQ.h"
 
 class QCreator : public FigureCreatorBase
 {

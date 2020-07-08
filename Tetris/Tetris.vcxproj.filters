@@ -33,68 +33,68 @@
     <ClInclude Include="PerformanceCounter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FigureT.h">
-      <Filter>Figures</Filter>
-    </ClInclude>
-    <ClInclude Include="FigureQ.h">
-      <Filter>Figures</Filter>
-    </ClInclude>
-    <ClInclude Include="FigureI.h">
-      <Filter>Figures</Filter>
-    </ClInclude>
-    <ClInclude Include="FigureZ.h">
-      <Filter>Figures</Filter>
-    </ClInclude>
-    <ClInclude Include="FigureS.h">
-      <Filter>Figures</Filter>
-    </ClInclude>
-    <ClInclude Include="FigureJ.h">
-      <Filter>Figures</Filter>
-    </ClInclude>
-    <ClInclude Include="FigureL.h">
-      <Filter>Figures</Filter>
-    </ClInclude>
     <ClInclude Include="Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="QCreator.h">
+    <ClInclude Include="CheckBlock\CheckBlockBase.h">
+      <Filter>Check Block</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBlock\CheckBottomBlock.h">
+      <Filter>Check Block</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBlock\CheckLeftBlock.h">
+      <Filter>Check Block</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBlock\CheckRightBlock.h">
+      <Filter>Check Block</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\FigureCreatorBase.h">
       <Filter>Factory Method</Filter>
     </ClInclude>
-    <ClInclude Include="ICreator.h">
+    <ClInclude Include="FactoryMethod\ICreator.h">
       <Filter>Factory Method</Filter>
     </ClInclude>
-    <ClInclude Include="FigureCreatorBase.h">
+    <ClInclude Include="FactoryMethod\JCreator.h">
       <Filter>Factory Method</Filter>
     </ClInclude>
-    <ClInclude Include="FigureBase.h">
+    <ClInclude Include="FactoryMethod\LCreator.h">
+      <Filter>Factory Method</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\QCreator.h">
+      <Filter>Factory Method</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\SCreator.h">
+      <Filter>Factory Method</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\TCreator.h">
+      <Filter>Factory Method</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod\ZCreator.h">
+      <Filter>Factory Method</Filter>
+    </ClInclude>
+    <ClInclude Include="Figures\FigureBase.h">
       <Filter>Figures</Filter>
     </ClInclude>
-    <ClInclude Include="JCreator.h">
-      <Filter>Factory Method</Filter>
+    <ClInclude Include="Figures\FigureI.h">
+      <Filter>Figures</Filter>
     </ClInclude>
-    <ClInclude Include="LCreator.h">
-      <Filter>Factory Method</Filter>
+    <ClInclude Include="Figures\FigureJ.h">
+      <Filter>Figures</Filter>
     </ClInclude>
-    <ClInclude Include="TCreator.h">
-      <Filter>Factory Method</Filter>
+    <ClInclude Include="Figures\FigureL.h">
+      <Filter>Figures</Filter>
     </ClInclude>
-    <ClInclude Include="ZCreator.h">
-      <Filter>Factory Method</Filter>
+    <ClInclude Include="Figures\FigureQ.h">
+      <Filter>Figures</Filter>
     </ClInclude>
-    <ClInclude Include="SCreator.h">
-      <Filter>Factory Method</Filter>
+    <ClInclude Include="Figures\FigureS.h">
+      <Filter>Figures</Filter>
     </ClInclude>
-    <ClInclude Include="CheckBlockBase.h">
-      <Filter>Check Block</Filter>
+    <ClInclude Include="Figures\FigureT.h">
+      <Filter>Figures</Filter>
     </ClInclude>
-    <ClInclude Include="CheckRightBlock.h">
-      <Filter>Check Block</Filter>
-    </ClInclude>
-    <ClInclude Include="CheckLeftBlock.h">
-      <Filter>Check Block</Filter>
-    </ClInclude>
-    <ClInclude Include="CheckBottomBlock.h">
-      <Filter>Check Block</Filter>
+    <ClInclude Include="Figures\FigureZ.h">
+      <Filter>Figures</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -107,68 +107,68 @@
     <ClCompile Include="BaseApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FigureT.cpp">
-      <Filter>Figures</Filter>
-    </ClCompile>
-    <ClCompile Include="FigureQ.cpp">
-      <Filter>Figures</Filter>
-    </ClCompile>
-    <ClCompile Include="FigureI.cpp">
-      <Filter>Figures</Filter>
-    </ClCompile>
-    <ClCompile Include="FigureZ.cpp">
-      <Filter>Figures</Filter>
-    </ClCompile>
-    <ClCompile Include="FigureS.cpp">
-      <Filter>Figures</Filter>
-    </ClCompile>
-    <ClCompile Include="FigureJ.cpp">
-      <Filter>Figures</Filter>
-    </ClCompile>
-    <ClCompile Include="FigureL.cpp">
-      <Filter>Figures</Filter>
-    </ClCompile>
     <ClCompile Include="Game.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="QCreator.cpp">
+    <ClCompile Include="CheckBlock\CheckBlockBase.cpp">
+      <Filter>Check Block</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBlock\CheckBottomBlock.cpp">
+      <Filter>Check Block</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBlock\CheckLeftBlock.cpp">
+      <Filter>Check Block</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBlock\CheckRightBlock.cpp">
+      <Filter>Check Block</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryMethod\FigureCreatorBase.cpp">
       <Filter>Factory Method</Filter>
     </ClCompile>
-    <ClCompile Include="ICreator.cpp">
+    <ClCompile Include="FactoryMethod\ICreator.cpp">
       <Filter>Factory Method</Filter>
     </ClCompile>
-    <ClCompile Include="FigureCreatorBase.cpp">
+    <ClCompile Include="FactoryMethod\JCreator.cpp">
       <Filter>Factory Method</Filter>
     </ClCompile>
-    <ClCompile Include="FigureBase.cpp">
+    <ClCompile Include="FactoryMethod\LCreator.cpp">
+      <Filter>Factory Method</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryMethod\QCreator.cpp">
+      <Filter>Factory Method</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryMethod\SCreator.cpp">
+      <Filter>Factory Method</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryMethod\TCreator.cpp">
+      <Filter>Factory Method</Filter>
+    </ClCompile>
+    <ClCompile Include="FactoryMethod\ZCreator.cpp">
+      <Filter>Factory Method</Filter>
+    </ClCompile>
+    <ClCompile Include="Figures\FigureBase.cpp">
       <Filter>Figures</Filter>
     </ClCompile>
-    <ClCompile Include="JCreator.cpp">
-      <Filter>Factory Method</Filter>
+    <ClCompile Include="Figures\FigureI.cpp">
+      <Filter>Figures</Filter>
     </ClCompile>
-    <ClCompile Include="LCreator.cpp">
-      <Filter>Factory Method</Filter>
+    <ClCompile Include="Figures\FigureJ.cpp">
+      <Filter>Figures</Filter>
     </ClCompile>
-    <ClCompile Include="TCreator.cpp">
-      <Filter>Factory Method</Filter>
+    <ClCompile Include="Figures\FigureL.cpp">
+      <Filter>Figures</Filter>
     </ClCompile>
-    <ClCompile Include="ZCreator.cpp">
-      <Filter>Factory Method</Filter>
+    <ClCompile Include="Figures\FigureQ.cpp">
+      <Filter>Figures</Filter>
     </ClCompile>
-    <ClCompile Include="SCreator.cpp">
-      <Filter>Factory Method</Filter>
+    <ClCompile Include="Figures\FigureS.cpp">
+      <Filter>Figures</Filter>
     </ClCompile>
-    <ClCompile Include="CheckBlockBase.cpp">
-      <Filter>Check Block</Filter>
+    <ClCompile Include="Figures\FigureT.cpp">
+      <Filter>Figures</Filter>
     </ClCompile>
-    <ClCompile Include="CheckRightBlock.cpp">
-      <Filter>Check Block</Filter>
-    </ClCompile>
-    <ClCompile Include="CheckLeftBlock.cpp">
-      <Filter>Check Block</Filter>
-    </ClCompile>
-    <ClCompile Include="CheckBottomBlock.cpp">
-      <Filter>Check Block</Filter>
+    <ClCompile Include="Figures\FigureZ.cpp">
+      <Filter>Figures</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

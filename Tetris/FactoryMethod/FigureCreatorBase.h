@@ -1,5 +1,5 @@
 #pragma once
-#include"FigureBase.h"
+#include"../Figures/FigureBase.h"
 
 class FigureCreatorBase
 {
